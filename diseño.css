@@ -47,6 +47,24 @@ nav a:hover {
     color: #FF69B4;
 }
 
+/* Estilo específico para el botón "Iniciar Sesión" */
+.login-btn {
+    background-color: #FF69B4;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.login-btn:hover {
+    background-color: #FF1493;
+    cursor: pointer;
+}
+
 /* Área de contenido */
 .content {
     max-width: 1200px;
